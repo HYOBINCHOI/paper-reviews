@@ -310,8 +310,7 @@
     </div>
     <h1 class="hero-title">AI <span class="accent">논문 리뷰</span></h1>
     <p class="hero-sub">
-      <strong>DGIST MIPLab</strong> · 최신 AI 논문을 릴스로 쉽게<br>
-      Quick paper reviews — Instagram Reels
+      <strong>Study AI with me</strong> · 어려운 VLA·AI·로봇공학 논문을 쉽게
     </p>
     <div class="hero-badges">
       <span class="badge">🎓 Research</span>
@@ -330,12 +329,8 @@
 
 <footer>
   <div class="footer-inner">
-    <p>© 2024 hyobin · DGIST MIPLab</p>
-    <div>
-      <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
-      &nbsp;·&nbsp;
-      <a href="admin.html" title="Admin">🔒</a>
-    </div>
+    <p>@studyaiwith</p>
+    <a href="admin.html" title="Admin" style="font-size:.8rem;color:var(--text-muted);text-decoration:none;">🔒</a>
   </div>
 </footer>
 
@@ -380,9 +375,7 @@ function trackClick(paperId, linkType) {
 function renderCards() {
   document.getElementById('paper-list').innerHTML = PAPERS.map((p, i) => `
     <article class="paper-card">
-      <div class="card-num">${String(i + 1).padStart(2, '0')}</div>
       <div class="card-top">
-        <div class="card-emoji-wrap">${p.emoji}</div>
         <div class="card-meta">
           <div class="card-tags">
             <span class="tag tag-year">${p.year}</span>
