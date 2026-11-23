@@ -337,30 +337,33 @@
 <script>
 // ━━ 논문 목록 ━━
 const PAPERS = [
+
   {
-    id: 'physvam',
-    emoji: '🌊',
-    title: 'PhysVAM',
-    subtitle: '물리 기반 비디오 애니메이션 모델',
-    year: '2024',
-    tags: ['Video Generation', 'Physics', 'Animation'],
-    venue: 'arXiv',
-    desc: '물리 시뮬레이션과 생성 AI를 결합해 현실적인 물리 법칙을 따르는 고품질 비디오 애니메이션을 생성하는 모델입니다.',
-    arxiv: 'https://arxiv.org/abs/XXXX.XXXXX',
-    reels: 'https://www.instagram.com/reel/XXXXXXXXX'
-  },
+  id: 'physvam',
+  emoji: '🤖',
+  title: 'PhysVAM',
+  subtitle: '물리 기반 미래 가치 행동 모델',
+  year: '2026/11',
+  tags: ['Robotics', 'Dynamic Manipulation', 'VLA'],
+  venue: 'arXiv',
+  desc: '로봇의 동적 물체 조작을 위해 미래 상호작용의 작업 기여도를 "가치"로 예측하는 모델입니다. 시뮬레이션과 실제 로봇 실험에서 기존 대비 성공률을 27%p 향상시켰습니다.',
+  arxiv: 'https://arxiv.org/abs/2611.26105',
+  reels: 'https://www.instagram.com/reel/XXXXXXXXX'
+},
+  
   {
-    id: 'actioncodec2',
-    emoji: '🤖',
-    title: 'ActionCodec2',
-    subtitle: '로봇 조작 액션 토크나이저',
-    year: '2024',
-    tags: ['Robotics', 'Tokenization', 'Policy Learning'],
-    venue: 'arXiv',
-    desc: '연속적인 로봇 행동 공간을 효율적으로 이산화하는 액션 코덱으로, 복잡한 조작 태스크의 학습 효율을 크게 향상시킵니다.',
-    arxiv: 'https://arxiv.org/abs/XXXX.XXXXX',
-    reels: 'https://www.instagram.com/reel/XXXXXXXXX'
-  }
+  id: 'actioncodec2',
+  emoji: '⚡',
+  title: 'ActionCodec2',
+  subtitle: '스트리밍 액션 토크나이저',
+  year: '2026/11',
+  tags: ['Robotics', 'Action Tokenizer', 'VLA'],
+  venue: 'arXiv',
+  desc: '로봇 행동을 청크 단위가 아닌 스트리밍 방식으로 점진적으로 출력하는 액션 토크나이저입니다. 24개 embodiment, 2만 시간 데이터로 학습해 외부 교란 상황에서도 강건한 실시간 제어가 가능합니다.',
+  arxiv: 'https://arxiv.org/abs/2611.15490',
+  reels: 'https://www.instagram.com/reel/XXXXXXXXX'
+}
+  
 ];
 
 function trackClick(paperId, linkType) {
